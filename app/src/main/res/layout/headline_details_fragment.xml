@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            app:contentScrim="#FFF"
+            app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleEnabled="true">
+
+            <!-- iv main-->
+            <ImageView
+                android:id="@+id/iv_headline_d"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="16dp"
+                app:layout_collapseMode="pin">
+                <!-- sourceHeadline, author -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="48dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_content_headline_d">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <!-- iv_source-->
+                        <ImageView
+                            android:id="@+id/v1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_source"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <!-- tv_source -->
+                        <TextView
+                            android:id="@+id/tv_source_headline_d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            app:layout_constraintLeft_toRightOf="@id/v1"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <!-- tv_author -->
+                        <TextView
+                            android:id="@+id/tv_author_headline_d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingRight="16dp"
+                            android:text="author"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="#673AB7"
+                            android:textStyle="italic"
+                            app:layout_constraintLeft_toRightOf="@id/v1"
+                            app:layout_constraintTop_toBottomOf="@id/tv_source_headline_d" />
+                        <!-- iv_source-->
+                        <ImageView
+                            android:id="@+id/iv_link_headline_d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_link"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?actionBarSize"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:paddingBottom="?attr/actionBarSize">
+            <!-- tv_publishedAt -->
+            <TextView
+                android:id="@+id/tv_publishedAt_headline_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020-06-28T06:25:08Z"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/red"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <!-- tv title-->
+            <TextView
+                android:id="@+id/tv_title_headline_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="1 Dead After Man Shoots Into Crowd at Breonna Taylor Protest Park - The New York Times"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_publishedAt_headline_d" />
+            <!-- tv_description-->
+            <TextView
+                android:id="@+id/tv_description_headline_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video footage showed a man firing more than a dozen shots at a park in Louisville, Ky., where protesters had gathered to call for justice for Ms. Taylor, who was killed by the police in March."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_title_headline_d" />
+            <!-- tv_content-->
+            <TextView
+                android:id="@+id/tv_content_headline_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="I am deeply saddened by the violence that erupted in Jefferson Square Park tonight, where those who have been voicing their concerns have been gathered, Greg Fischer, the mayor of Louisville, said on… [+1359 chars]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000"
+                app:layout_constraintTop_toBottomOf="@id/tv_description_headline_d" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Austin Ramzy",
+      "title": "1 Dead After Man Shoots Into Crowd at Breonna Taylor Protest Park - The New York Times",
+      "description": "Video footage showed a man firing more than a dozen shots at a park in Louisville, Ky., where protesters had gathered to call for justice for Ms. Taylor, who was killed by the police in March.",
+      "url": "https://www.nytimes.com/2020/06/28/us/shooting-breonna-taylor-protest-louisville.html",
+      "urlToImage": "https://static01.nyt.com/images/2020/06/28/world/28louisville/merlin_173994540_caf2237f-032a-4169-b698-1af9862b7d79-facebookJumbo.jpg",
+      "publishedAt": "2020-06-28T06:25:08Z",
+      "content": "I am deeply saddened by the violence that erupted in Jefferson Square Park tonight, where those who have been voicing their concerns have been gathered, Greg Fischer, the mayor of Louisville, said on… [+1359 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "",
+      "title": "PlayStation 2 can play homebrew games by using DVD player exploits - Engadget",
+      "description": "A software engineer has discovered that you can 'hack' the PlayStation 2 to play homebrew games by feeding it specially crafted DVDs.",
+      "url": "https://www.engadget.com/playstation-2-freedvdboot-homebrew-games-044401289.html",
+      "urlToImage": "https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2020-06%2Fcce38ee0-b8b8-11ea-affe-06197cb6f285&client=amp-blogside-v2&signature=6ab8a636120ae690c65223bc966c6ef9b534b678",
+      "publishedAt": "2020-06-28T05:56:11Z",
+      "content": "The PlayStation 2 is over 20 years old, but it’s still difficult to hack if you want to run homebrew games without tweaking the hardware. You usually need to install a modchip, buy a specially-config… [+1012 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Sean Hollister",
+      "title": "Dr Disrespect breaks silence, but Twitch still refuses to say what’s going on - The Verge",
+      "description": "Twitch has repeatedly refused to confirm that Dr Disrespect has been banned — and declined to deny a new statement from Beahm this evening that claims Twitch won’t even tell him what’s going on.",
+      "url": "https://www.theverge.com/2020/6/28/21305822/twitch-dr-disrespect-alleged-ban-statement-guy-beahm",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/qBISvAwdnKT0NHVZLEh9Slnh6UI=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19786264/BobbyQuillard_200311_3934_DrDisrespect_0002.jpg",
+      "publishedAt": "2020-06-28T04:25:32Z",
+      "content": "Twitch wont even confirm that hes been banned\r\nPhoto by Bobby Quillard\r\nWhat youve probably heard: three months after he signed an exclusive two-year contract with Twitch for a life-changing amount o… [+2907 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "UFC Vegas 4: Dustin Poirier Post-fight Interview - UFC - Ultimate Fighting Championship",
+      "description": "Dustin Poirier prevails in a potential fight of the year candidate with Dan Hooker in the main event of UFC Vegas 4 from the UFC Apex in Las Vegas, Nevada. S...",
+      "url": "https://www.youtube.com/watch?v=Yz1P0OcLVhc",
+      "urlToImage": "https://i.ytimg.com/vi/Yz1P0OcLVhc/maxresdefault.jpg",
+      "publishedAt": "2020-06-28T04:13:26Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "al-jazeera-english",
+        "name": "Al Jazeera English"
+      },
+      "author": "Al Jazeera",
+      "title": "Biden slams Trump over reported bounties placed on US troops - Al Jazeera English",
+      "description": "Democratic presidential candidate and former vice president says if elected president he will confront Russia's Putin.",
+      "url": "https://www.aljazeera.com/news/2020/06/biden-slams-trump-reported-bounties-troops-200628015104125.html",
+      "urlToImage": "https://www.aljazeera.com/mritems/Images/2020/6/28/86ebb6eeebab457499fb55c484806b06_18.jpg",
+      "publishedAt": "2020-06-28T04:01:12Z",
+      "content": "Democratic presidential candidate Joe Biden has attacked President Donald Trump over a report that he said, if true, contains a \"truly shocking revelation\" about the commander in chief and his failur… [+2909 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Mail"
+      },
+      "author": "By Harriet Alexander For Dailymail.com",
+      "title": "California woman explodes with rage at Trader Joe's after being asked to wear a face mask - Daily Mail",
+      "description": "A woman in Los Angeles launched into a wild rant Friday afternoon at Trader Joe's after she was asked to wear a mask. One witness told DailyMail.com he was sure it was a deliberate provocation.",
+      "url": "https://www.dailymail.co.uk/news/article-8467073/California-woman-explodes-rage-Trader-Joes-asked-wear-face-mask.html",
+      "urlToImage": "https://i.dailymail.co.uk/1s/2020/06/28/03/30136420-0-image-a-6_1593310151305.jpg",
+      "publishedAt": "2020-06-28T03:31:39Z",
+      "content": "A woman in Los Angeles has been caught on camera yelling at staff in a Trader Joe's after she was asked to wear a face mask.\r\nThe unnamed woman had stood in line around 5.30pm Friday with other shopp… [+3609 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": null,
+      "title": "Justice Dept. announces first felony charges in attempted toppling of Andrew Jackson statue near White House - POLITICO",
+      "description": "The charges — the first brought in a federal court — come after President Donald Trump had promised a crackdown on those attempting to topple or deface monuments.",
+      "url": "https://www.politico.com/news/2020/06/27/four-charged-andrew-jackson-statue-washington-342335",
+      "urlToImage": "https://static.politico.com/56/a1/2e6f21584b228df284c3e74cc9de/200627-andrew-jackson-ap-773.jpg",
+      "publishedAt": "2020-06-28T03:12:10Z",
+      "content": "The charges the first brought in a federal court come after President Donald Trump had promised a crackdown on those attempting to topple or deface monuments of Confederate war heroes and U.S. presid… [+1416 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sarah Mucha, CNN",
+      "title": "Biden, Trump campaigns release staff diversity data - CNN",
+      "description": "Joe Biden's presidential campaign on Saturday reported diversity data for its staff for the first time, disclosing that more than one-third of the presumptive Democratic nominee's staff is comprised of people of color and is majority female.",
+      "url": "https://www.cnn.com/2020/06/27/politics/biden-campaign-staff-diversity-data/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200409020412-biden-trump-split-super-tease.jpg",
+      "publishedAt": "2020-06-28T02:12:58Z",
+      "content": "(CNN)Joe Biden's presidential campaign on Saturday reported diversity data for its staff for the first time, disclosing that more than one-third of the presumptive Democratic nominee's staff is compr… [+3997 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KTLA Los Angeles"
+      },
+      "author": "CNN Wire",
+      "title": "85 test positive for coronavirus after visiting Michigan bar - KTLA",
+      "description": "People who visited a bar in East Lansing, Michigan, are being asked to self-quarantine because roughly 85 people contracted COVID-19 after visiting the establishment this month, a health official says. That number is up from the 34 reported Wednesday and is e…",
+      "url": "https://ktla.com/news/nationworld/85-test-positive-for-coronavirus-after-visiting-michigan-bar/",
+      "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2020/06/S160347330-1.jpg?w=1280&h=720&crop=1",
+      "publishedAt": "2020-06-28T01:46:00Z",
+      "content": "People who visited a bar in East Lansing, Michigan, are being asked to self-quarantine because roughly 85 people contracted COVID-19 after visiting the establishment this month, a health official say… [+804 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Jenny Gross, Marie Fazio",
+      "title": "2 Dead in Shooting at Walmart Distribution Center in California, Official Says - The New York Times",
+      "description": "An employee at the center in Red Bluff, Calif., said he had heard 50 to 60 shots as he and other employees fled the building.",
+      "url": "https://www.nytimes.com/2020/06/27/us/walmart-shooting-red-bluff-california.html",
+      "urlToImage": "https://static01.nyt.com/images/2020/06/27/multimedia/27xp-walmart-pix/27xp-walmart-pix-facebookJumbo.jpg",
+      "publishedAt": "2020-06-28T01:40:09Z",
+      "content": "Mr. Lister and his co-workers ran out the nearest fire exit.\r\nAs they were running, he said, they heard 50 to 60 gunshots at which point they picked up their speed and helped each other over a barbed… [+841 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NPR"
+      },
+      "author": "Christianna Silva",
+      "title": "Mississippi Lawmakers Clear Path To Remove Confederate Emblem From State Flag - NPR",
+      "description": "Mississippi state lawmakers cleared the path for legislation to remove and redesign the 126-year-old state flag, which includes the Confederate battle emblem. The governor said he will sign it.",
+      "url": "https://www.npr.org/2020/06/27/884306925/mississippi-lawmakers-clear-path-to-remove-confederate-emblem-from-state-flag",
+      "urlToImage": "https://media.npr.org/assets/img/2020/06/27/gettyimages-1085738552_wide-73530beb98232b80d5d145743ef3bf23fe46336e.jpg?s=1400",
+      "publishedAt": "2020-06-28T01:23:46Z",
+      "content": "The flag of the state of Mississippi flies in front of the Mississippi State Capitol dome on Jan. 10, 2019. Lawmakers have cleared the way for legislation to remove and replace the flag.\r\nBrandon Dil… [+2879 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Amir Vera, CNN",
+      "title": "Colorado protesters shut down highway calling for justice in the death of Elijah McClain - CNN",
+      "description": "Protesters marched onto Highway 22. Police closed the highway beforehand.",
+      "url": "https://www.cnn.com/2020/06/27/us/colorado-protest-elijah-mcclain/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200627184646-01-colorado-highway-protests-0627-super-tease.jpg",
+      "publishedAt": "2020-06-28T00:54:54Z",
+      "content": "(CNN)Colorado protesters shut down Highway 225 Saturday in a peaceful demonstration calling for justice in the death of Elijah McClain. \r\nMcClain, 23, died last August during a confrontation with Aur… [+1403 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Marc Berman",
+      "title": "NBA players face mental health challenges in Disney bubble - New York Post ",
+      "description": "The adjustments NBA players will make in the Orlando bubble for the season’s restart on July 30 will be enormous. One change the players must adapt to is the lack of a crowd and its wall of noise, …",
+      "url": "https://nypost.com/2020/06/27/nba-players-face-these-mental-health-challenges-in-disney-season-restart/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2020/06/Lakers-LeBron.jpg?quality=90&strip=all&w=824",
+      "publishedAt": "2020-06-28T00:03:08Z",
+      "content": "The adjustments NBA players will make in the Orlando bubble for the seasons restart on July 30 will be enormous.\r\nOne change the players must adapt to is the lack of a crowd and its wall of noise, ac… [+5553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Billboard"
+      },
+      "author": "Ashley Iasimone",
+      "title": "Adam Lambert Performs 'Mad World' for Global Pride 2020 - Billboard",
+      "description": "",
+      "url": "https://www.billboard.com/articles/news/pride/9410520/adam-lambert-mad-world-global-pride-2020-video",
+      "urlToImage": "https://static.billboard.com/files/2020/03/adam-lambert-velvet-2020-billboard-1548-1584722170-1024x677.jpg",
+      "publishedAt": "2020-06-27T23:53:42Z",
+      "content": "Adam Lambert delivered a smooth, socially distanced cover of \"Mad World\" and a heartfelt speech during the Global Pride 2020 virtual event.\r\n\"I wanted to wish everybody a Happy World Pride,\" he said … [+1364 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Harvick finally victorious at Pocono Raceway | NASCAR Cup Series at Pocono Raceway - NASCAR",
+      "description": "Kevin Harvick had been close several times at Pocono Raceway and finally gets the elusive Pocono victory in his 39th try. ---------- Subscribe to NASCAR on Y...",
+      "url": "https://www.youtube.com/watch?v=587BATuX6jY",
+      "urlToImage": "https://i.ytimg.com/vi/587BATuX6jY/hqdefault.jpg",
+      "publishedAt": "2020-06-27T23:45:17Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Gina Kolata",
+      "title": "A ‘Cure for Heart Disease’? A Single Shot Succeeds in Monkeys - The New York Times",
+      "description": "A novel gene-editing experiment seems to have permanently reduced LDL and triglyceride levels in monkeys.",
+      "url": "https://www.nytimes.com/2020/06/27/health/heart-disease-gene-editing.html",
+      "urlToImage": "https://static01.nyt.com/images/2020/06/27/science/27HEART/27HEART-facebookJumbo.jpg",
+      "publishedAt": "2020-06-27T23:03:26Z",
+      "content": "Not only did the system work in 13 monkeys, the researchers reported, but it appeared that every liver cell was edited. After gene editing, the monkeys LDL levels dropped by 59 percent within two wee… [+1527 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Willow Smith's Family 'Disgusted' With YouTuber Shane Dawson Over Video - Newsweek",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiYGh0dHBzOi8vd3d3Lm5ld3N3ZWVrLmNvbS93aWxsb3ctc21pdGhzLWZhbWlseS1kaXNndXN0ZWQteW91dHViZXItc2hhbmUtZGF3c29uLW92ZXItdmlkZW8tMTUxMzkwMNIBZmh0dHBzOi8vd3d3Lm5ld3N3ZWVrLmNvbS93aWxsb3ctc21pdGhzLWZhbWlseS1kaXNndXN0ZWQteW91dHViZXItc2hhbmUtZGF3c29uLW92ZXItdmlkZW8tMTUxMzkwMD9hbXA9MQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2020-06-27T22:38:37Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TooFab"
+      },
+      "author": "Toofab Staff",
+      "title": "Adele Tells Fan Asking About New Album to 'Wear a Mask and Be Patient' - TooFab",
+      "description": "Adele gave her 37.6 million followers quite a lot to talk about on Saturday when she simply posted a picture of herself singing on stage.",
+      "url": "https://toofab.com/2020/06/27/adele-tells-fan-wear-mask-be-patient/",
+      "urlToImage": "https://images.toofab.com/image/b4/16by9/2020/06/27/b46db805ca6942cb95f517316c72f648_xl.jpg",
+      "publishedAt": "2020-06-27T22:10:00Z",
+      "content": "A cryptic snap posted to her IG account had the rumor mill churning.\r\nAdele gave her 37.6 million followers quite a lot to talk about on Saturday when she simply posted a picture of herself singing o… [+1805 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Julia Musto",
+      "title": "Scientists spot promising super-Earth planets just 11 light-years away - Fox News",
+      "description": "A team of German astronomers has discovered two super-Earths near the red dwarf star Gliese 887 and just a short 11 light-years away from Earth.",
+      "url": "https://www.foxnews.com/science/scientists-spot-super-earth-planets-11-light-years-away",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/02/solar-system.jpg",
+      "publishedAt": "2020-06-27T21:48:25Z",
+      "content": "A team of German astronomers has discovered two super-Earths near the red dwarf star Gliese 887 and just a short 11 light-years away from Earth.\r\nSuper-Earths are planets with a mass greater than Ear… [+2746 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Reuters",
+      "title": "LGBT+ marches from London to New York call for end to racism - The Guardian",
+      "description": "Minorities claim that they are seen ‘as second-class citizens’ within their own communities",
+      "url": "https://www.theguardian.com/world/2020/jun/27/lgbt-marches-from-london-to-new-york-call-for-end-to-racism",
+      "urlToImage": "https://i.guim.co.uk/img/media/22e8b124c4c0a2ca15314d9248bab2be500ecd6d/240_177_4553_2731/master/4553.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4e46d15da35b776febc56b36e1fc8fe2",
+      "publishedAt": "2020-06-27T21:47:40Z",
+      "content": "As thousands of people marched in support of Pride and racial justice globally this weekend, many demonstrators called for an end to often-overlooked racism within the LGBT+ community.\r\nPride events … [+3296 chars]"
+    }
+  ]
+}
