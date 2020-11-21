@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.country.CountryFragment">
+    tools:context=".ui.tab_settings.country.CountryFragment">
 
     <TextView
         android:id="@+id/tv_default_country"
@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="85dp"
+        tools:itemCount="12"
         app:layout_constraintTop_toBottomOf="@id/tv_default_country"
         tools:listitem="@layout/item_country" />
 

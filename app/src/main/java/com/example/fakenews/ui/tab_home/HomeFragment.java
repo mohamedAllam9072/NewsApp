@@ -1,16 +1,14 @@
-package com.example.fakenews.ui.home;
+package com.example.fakenews.ui.tab_home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -43,7 +41,7 @@ public class HomeFragment extends Fragment {
 
     private void rv() {
         recyclerView = root.findViewById(R.id.rv_posts);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.VERTICAL,true));
         adapter = new HeadlineAdapter(getContext(), articles);
         recyclerView.setAdapter(adapter);
 
@@ -73,20 +71,20 @@ public class HomeFragment extends Fragment {
         appBarLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Navigation.findNavController(root).navigate(R.id.action_navigation_home_to_countryFragment);
+               // Navigation.findNavController(root).navigate(R.id.action_navigation_home_to_countryFragment);
             }
         });
     }
 
     private void viewModel() {
         viewModel = new ViewModelProvider(requireActivity()).get(HomeViewModel.class);
-        viewModel.getDefaultCountryShort().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(String s) {
-                country = s;
-                Toast.makeText(getContext(), "home " + country, Toast.LENGTH_SHORT).show();
-            }
-        });
+//        viewModel.getDefaultCountryShort().observe(getViewLifecycleOwner(), new Observer<String>() {
+//            @Override
+//            public void onChanged(String s) {
+//                country = s;
+//                Toast.makeText(getContext(), "home " + country, Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
         viewModel.getArticles(country);
         viewModel.getAllArticlesRoom().observe(getViewLifecycleOwner(), new Observer<List<Article>>() {

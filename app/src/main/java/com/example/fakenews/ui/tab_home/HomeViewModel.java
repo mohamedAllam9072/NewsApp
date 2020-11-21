@@ -1,4 +1,4 @@
-package com.example.fakenews.ui.home;
+package com.example.fakenews.ui.tab_home;
 
 import android.app.Application;
 
@@ -26,7 +26,6 @@ public class HomeViewModel extends AndroidViewModel {
     private List<Article> articleList22 = new ArrayList<>();
     private LiveData<List<Article>> allArticlesRoom;
 
-
     private MutableLiveData<String> defaultCountry = new MutableLiveData<>();
     private MutableLiveData<String> defaultCountryShort = new MutableLiveData<>();
 
@@ -36,21 +35,6 @@ public class HomeViewModel extends AndroidViewModel {
         allArticlesRoom = repo.getAllArticles();
     }
 
-    public void setDefaultCountry(String country) {
-        defaultCountry.setValue(country);
-    }
-
-    public MutableLiveData<String> getDefaultCountry() {
-        return defaultCountry;
-    }
-
-    public MutableLiveData<String> getDefaultCountryShort() {
-        return defaultCountryShort;
-    }
-
-    public void setDefaultCountryShort(String countryShort) {
-        defaultCountryShort.setValue(countryShort);
-    }
 
     public void getArticles(String country) {
         ApiClient.getINSTANCE().getHeadlines(country).enqueue(new Callback<Headline>() {
@@ -82,4 +66,5 @@ public class HomeViewModel extends AndroidViewModel {
     public LiveData<List<Article>> getAllArticlesRoom() {
         return allArticlesRoom;
     }
+
 }

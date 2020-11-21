@@ -1,4 +1,4 @@
-package com.example.fakenews.ui.notifications.country;
+package com.example.fakenews.ui.tab_settings.country;
 
 import android.content.Context;
 import android.view.LayoutInflater;

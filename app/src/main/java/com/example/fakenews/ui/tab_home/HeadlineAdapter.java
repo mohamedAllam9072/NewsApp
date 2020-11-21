@@ -1,4 +1,4 @@
-package com.example.fakenews.ui.home;
+package com.example.fakenews.ui.tab_home;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -86,7 +86,7 @@ public class HeadlineAdapter extends RecyclerView.Adapter<HeadlineAdapter.mVH> {
                     args.putString("source_id", articleList.get(getAdapterPosition()).getSourceHeadline().getSource1_id());
                     args.putString("source_name", articleList.get(getAdapterPosition()).getSourceHeadline().getName());
 
-                    Navigation.findNavController(itemView).navigate(R.id.action_navigation_home_to_headlineDetailsFragment, args);
+                    Navigation.findNavController(itemView).navigate(R.id.action_home_to_headlineDetails, args);
 
                 }
             });

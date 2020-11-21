@@ -1,6 +1,7 @@
 package com.example.fakenews.DB.models;
 
 public class Country {
+
     private String name;
     private String short_name;
 

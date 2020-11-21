@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
         getWindow().setStatusBarColor(getResources().getColor(R.color.yellow));
         //Code to start timer and take action after the timer ends
         //This is 3 seconds
-        int SPLASH_TIME = 1500;
+        int SPLASH_TIME = 1200;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

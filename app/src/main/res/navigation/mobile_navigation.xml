@@ -7,58 +7,62 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.fakenews.ui.home.HomeFragment"
+        android:name="com.example.fakenews.ui.tab_home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home">
         <action
-            android:id="@+id/action_navigation_home_to_headlineDetailsFragment"
-            app:destination="@id/headlineDetailsFragment"/>
-        <action
-            android:id="@+id/action_navigation_home_to_countryFragment"
-            app:destination="@id/countryFragment" />
-    </fragment>
+            android:id="@+id/action_home_to_headlineDetails"
+            app:destination="@id/headlineDetailsFragment" />
 
+    </fragment>
     <fragment
         android:id="@+id/navigation_source"
-        android:name="com.example.fakenews.ui.dashboard.DashboardFragment"
+        android:name="com.example.fakenews.ui.tab_sources.DashboardFragment"
         android:label="@string/title_source"
-        tools:layout="@layout/fragment_dashboard">
+        tools:layout="@layout/fragment_sources">
         <action
-            android:id="@+id/action_navigation_dashboard_to_sourceDetailsFragment"
+            android:id="@+id/action_source_to_sourceDetails"
             app:destination="@id/sourceDetailsFragment" />
     </fragment>
-
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="com.example.fakenews.ui.notifications.NotificationsFragment"
+        android:name="com.example.fakenews.ui.tab_settings.SettingsFragment"
         android:label="@string/title_settings"
-        tools:layout="@layout/fragment_notifications">
+        tools:layout="@layout/fragment_settings">
         <action
-            android:id="@+id/action_navigation_notifications_to_countryFragment"
+            android:id="@+id/action_settings_to_country"
             app:destination="@id/countryFragment" />
+        <action
+            android:id="@+id/action_settings_to_history"
+            app:destination="@id/historyFragment" />
     </fragment>
     <fragment
         android:id="@+id/headlineDetailsFragment"
-        android:name="com.example.fakenews.ui.HeadlineDetails.HeadlineDetailsFragment"
+        android:name="com.example.fakenews.ui.headlineDetails.HeadlineDetailsFragment"
         android:label="@string/title_news_details"
-        tools:layout="@layout/headline_details_fragment" />
+        tools:layout="@layout/fragment_headline_details" />
     <fragment
         android:id="@+id/sourceDetailsFragment"
         android:name="com.example.fakenews.ui.sourceDetails.SourceDetailsFragment"
         android:label="SourceDetailsFragment"
-        tools:layout="@layout/source_details_fragment">
+        tools:layout="@layout/fragment_source_details">
         <action
-            android:id="@+id/action_sourceDetailsFragment_to_headlineDetailsFragment"
+            android:id="@id/action_home_to_headlineDetails"
             app:destination="@id/headlineDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/countryFragment"
-        android:name="com.example.fakenews.ui.notifications.country.CountryFragment"
+        android:name="com.example.fakenews.ui.tab_settings.country.CountryFragment"
         android:label="country_fragment"
-        tools:layout="@layout/country_fragment">
+        tools:layout="@layout/fragment_country">
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.fakenews.ui.tab_settings.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history">
         <action
-            android:id="@+id/action_countryFragment_to_navigation_home"
-            app:destination="@id/navigation_home">
-        </action>
+            android:id="@id/action_home_to_headlineDetails"
+            app:destination="@id/headlineDetailsFragment" />
     </fragment>
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.fakenews.ui.dashboard;
+package com.example.fakenews.ui.tab_sources;
 
 import android.app.Application;
 

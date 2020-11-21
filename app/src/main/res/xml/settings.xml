@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:defaultValue="eg"
+        app:icon="@drawable/ic_location_on"
+        app:key="Country"
+        app:summary="Select the country that you want to Know it's news"
+        app:title="Default Country" />
+
+</PreferenceScreen>

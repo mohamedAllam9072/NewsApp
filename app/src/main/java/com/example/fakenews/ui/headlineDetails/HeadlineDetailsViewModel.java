@@ -1,14 +1,7 @@
-package com.example.fakenews.ui.HeadlineDetails;
+package com.example.fakenews.ui.headlineDetails;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-
-import com.example.fakenews.DB.models.Headline;
-import com.example.fakenews.DB.retrofit.ApiClient;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 
 public class HeadlineDetailsViewModel extends ViewModel {

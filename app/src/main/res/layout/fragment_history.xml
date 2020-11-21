@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="50dp"
-    tools:context=".ui.dashboard.DashboardFragment">
-
+    tools:context=".ui.tab_settings.history.HistoryFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_source"
+        android:id="@+id/rv_history"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_source" />
+        tools:listitem="@layout/item_headline_history" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

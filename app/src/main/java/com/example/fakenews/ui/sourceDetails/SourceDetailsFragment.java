@@ -20,7 +20,7 @@ import com.example.fakenews.DB.models.Article;
 import com.example.fakenews.DB.models.Headline;
 import com.example.fakenews.DB.retrofit.ApiClient;
 import com.example.fakenews.R;
-import com.example.fakenews.ui.home.HeadlineAdapter;
+import com.example.fakenews.ui.tab_home.HeadlineAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,13 +41,11 @@ public class SourceDetailsFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         adapter = new HeadlineAdapter(container.getContext(), articlesWithSource);
-        View root = inflater.inflate(R.layout.source_details_fragment, container, false);
+        View root = inflater.inflate(R.layout.fragment_source_details, container, false);
         init(root);
         getArticlesWithSource(getArguments().getString("src_id"));
         recyclerView.setAdapter(adapter);
         setTexts();
-
-
         return root;
     }
 

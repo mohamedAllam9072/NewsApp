@@ -1,6 +1,5 @@
-package com.example.fakenews.ui.dashboard;
+package com.example.fakenews.ui.tab_sources;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,7 +61,7 @@ public class SourceAdapter extends RecyclerView.Adapter<SourceAdapter.mVH> {
                     args2.putString("src_country", source2List.get(getAdapterPosition()).getCountry());
                     args2.putString("src_language", source2List.get(getAdapterPosition()).getLanguage());
 
-                    Navigation.findNavController(itemView).navigate(R.id.action_navigation_dashboard_to_sourceDetailsFragment, args2);
+                    Navigation.findNavController(itemView).navigate(R.id.action_source_to_sourceDetails, args2);
 
                 }
             });

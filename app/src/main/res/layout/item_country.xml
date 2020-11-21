@@ -7,11 +7,12 @@
     android:orientation="horizontal">
 
     <TextView
+        android:gravity="center"
         android:id="@+id/tv_country1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="@drawable/circle"
-        android:padding="8dp"
+        android:padding="4dp"
         android:text="us"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"

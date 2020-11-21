@@ -1,7 +1,9 @@
-package com.example.fakenews.ui.notifications.country;
+package com.example.fakenews.ui.tab_settings.country;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,14 +13,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fakenews.DB.models.Country;
 import com.example.fakenews.R;
-import com.example.fakenews.ui.home.HomeViewModel;
+import com.example.fakenews.ui.tab_home.HomeViewModel;
 
 import java.util.ArrayList;
 
@@ -28,21 +28,24 @@ public class CountryFragment extends Fragment implements CountryAdapter.onItemCl
     private RecyclerView recyclerView;
     private TextView tv_default_country;
     private CountryAdapter adapter;
-    private String default_country = "Egypt";
-    private String default_country_short = "eg";
     private View root;
+
+    public SharedPreferences sharedPref;
+    private String country_s = "eg";
+    private String country = "Egypt";
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        viewModel = new ViewModelProvider(requireActivity()).get(HomeViewModel.class);
-        root = inflater.inflate(R.layout.country_fragment, container, false);
+        //  viewModel = new ViewModelProvider(requireActivity()).get(HomeViewModel.class);
+        sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+        root = inflater.inflate(R.layout.fragment_country, container, false);
         tv_default_country = root.findViewById(R.id.tv_default_country);
         getList();
         recyclerView = root.findViewById(R.id.rv_country);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         adapter = new CountryAdapter(countryArrayList, this);
         recyclerView.setAdapter(adapter);
-        tv_default_country.setText("Default Country : " + viewModel.getDefaultCountry().getValue());
+        //    tv_default_country.setText("Default Country : " + viewModel.getDefaultCountry().getValue());
         return root;
     }
 
@@ -107,12 +110,17 @@ public class CountryFragment extends Fragment implements CountryAdapter.onItemCl
 
     @Override
     public void click(int position) {
-        default_country = adapter.getCountryAt(position).getName();
-        default_country_short = adapter.getCountryAt(position).getShort_name();
 
-        viewModel.setDefaultCountry(default_country);
-        viewModel.setDefaultCountryShort(default_country_short);
-        tv_default_country.setText("Default Country : " + default_country);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putString(getString(R.string.default_Country_s), adapter.getCountryAt(position).getShort_name());
+        editor.putString(getString(R.string.default_Country), adapter.getCountryAt(position).getName());
+        editor.commit();
+        country_s = getResources().getString(R.string.default_Country_s);
+        country = getResources().getString(R.string.default_Country);
+
+        tv_default_country.setText("Default Country : " + country);
+
+//        String country=getResources().getString(R.string.default_Country);
 
         Dialog();
 
@@ -121,15 +129,15 @@ public class CountryFragment extends Fragment implements CountryAdapter.onItemCl
     private void Dialog() {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-        View view = getLayoutInflater().inflate(R.layout.dialog_meal_done, null);
+        View view = getLayoutInflater().inflate(R.layout.dialog, null);
         TextView textView = view.findViewById(R.id.tv_dialog);
-        textView.setText(default_country);
+        textView.setText(country);
 
         builder.setView(view)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Navigation.findNavController(root).navigate(R.id.action_countryFragment_to_navigation_home);
+                        //    Navigation.findNavController(root).navigate(R.id.action_countryFragment_to_navigation_home);
 
                     }
                 })
