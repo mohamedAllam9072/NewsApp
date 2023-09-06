@@ -1,6 +1,7 @@
 package com.example.fakenews.ui.tab_sources;
 
 import android.app.Application;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
@@ -55,6 +56,7 @@ public class DashboardViewModel extends AndroidViewModel {
         ApiClient.getINSTANCE().getSources().enqueue(new Callback<Sources>() {
             @Override
             public void onResponse(Call<Sources> call, Response<Sources> response) {
+                Log.d("getSources", "Sources: "+response.body().getSource2List().toString());
                 sourcesList.addAll(response.body().getSource2List());
                 for (int i = 0; i < sourcesList.size(); i++) {
                     String id = sourcesList.get(i).getId();

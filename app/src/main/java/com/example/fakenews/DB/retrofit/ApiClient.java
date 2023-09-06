@@ -5,6 +5,13 @@ import androidx.lifecycle.MutableLiveData;
 import com.example.fakenews.DB.models.Headline;
 import com.example.fakenews.DB.models.Sources;
 
+import java.io.IOException;
+
+import okhttp3.Interceptor;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -21,8 +28,20 @@ public class ApiClient {
     private static ApiClient INSTANCE;
 
     public ApiClient() {
+        OkHttpClient.Builder client = new OkHttpClient.Builder();
+        HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
+        httpLoggingInterceptor.level(HttpLoggingInterceptor.Level.BODY);
+        client.addInterceptor(chain -> {
+            Request request = chain
+                    .request()
+                    .newBuilder()
+                    .addHeader("Accept", "application/json").build();
+            return chain.proceed(request);
+        });
+        client.addInterceptor(httpLoggingInterceptor);
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
+                .client(client.build())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         apiServices = retrofit.create(ApiServices.class);
